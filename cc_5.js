@@ -15,7 +15,15 @@ function calculateOvertimePay(rate, hours)
         return rate * hours * 1.5;
 }
 // Step 5 
+function calculateTaxes(grossPay) {
+return grossPay * 0.15
+}
 
-
-
+function processPayroll(employee) {
+const name = name;
+const basePay = calculateBasePay(employee.hourlyRate, employee.hoursWorked);
+const overtimePay = calculateOvertimePay (employees.hourlyRate, employees.hoursWorked)
+const grossPay = basePay + overtimePay
+const netpay = grossPay - calculateTaxes(grossPay)
+}
 
