@@ -9,5 +9,13 @@ const employees = [
 function calculateBasePay(rate, hours){
     return rate * Math.min(hours,40)
 }
+// Step 4 
+function calculateOvertimePay(rate, hours)
+{    if (hours => 40)
+        return rate * hours * 1.5;
+}
+// Step 5 
+
+
 
 
